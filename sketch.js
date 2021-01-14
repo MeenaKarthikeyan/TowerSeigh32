@@ -161,6 +161,7 @@ function keyPressed(){
   }
 }
 async function getBackgroundImage(){
+  // var response = await fetch("http://worldtimeapi.org/api/timezone/America/New_York");
    var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
    var responseJSON = await response.json();
 
